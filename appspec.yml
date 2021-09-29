@@ -1,5 +1,6 @@
 version: 0.0
 os: linux
 files:
-  - source: / 
-    destination: /home/satory074/src/aws_cicd_sample 
+  - source: /
+    destination: /home/satory074/src/aws_cicd_sample
+file_exists_behavior: OVERWRITE
